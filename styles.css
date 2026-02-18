@@ -310,3 +310,17 @@ header {
     transform: translateX(5px);
 }
 
+.about-images {
+  display: flex;           /* place images side by side */
+  justify-content: center; /* center the images */
+  gap: 20px;               /* space between images */
+  margin-top: 20px;        /* space below the paragraph */
+  flex-wrap: wrap;         /* wrap on smaller screens */
+}
+
+.about-images img {
+  width: 20%;            /* image size */
+  height: auto;            /* keep proportions */
+  border-radius: 10px;     /* optional rounded corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* optional shadow */
+}
