@@ -322,5 +322,5 @@ header {
   width: 20%;            /* image size */
   height: auto;            /* keep proportions */
   border-radius: 10px;     /* optional rounded corners */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* optional shadow */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* optional shadow for the display */
 }
