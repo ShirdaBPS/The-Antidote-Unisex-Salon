@@ -324,3 +324,12 @@ header {
   border-radius: 10px;     /* optional rounded corners */
   box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* optional shadow */
 }
+
+.contact-detail a {
+    color: #ef4444;           /* changes link color to red */
+    text-decoration: none; /* optional: removes underline */
+}
+
+.contact-detail a:hover {
+    text-decoration: underline; /* Underlined link */
+}
