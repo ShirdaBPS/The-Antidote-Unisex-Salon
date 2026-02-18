@@ -142,6 +142,10 @@ nav a:hover {
     width: 100%;
 }
 
+.contact-info h1 {
+    color: #ef4444;          /* makes the heading red */
+}
+
 .divider {
     height: 1px;
     background: linear-gradient(90deg, transparent, var(--primary), transparent);
@@ -305,3 +309,4 @@ header {
     background: rgba(239, 68, 68, 0.1);
     transform: translateX(5px);
 }
+
